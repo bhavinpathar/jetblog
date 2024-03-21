@@ -27,6 +27,37 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
+                    <div class="card-header border-0 pt-6 flex-column table-responsive">
+                        <div class="error_message">
+                        </div>
+                        <div class="d-flex justify-content-between w-100">
+                            <div class="card-title">
+                                <div class="d-flex align-items-center position-relative my-1">
+                                    <i class="ki-duotone ki-magnifier fs-3 position-absolute ms-5">
+                                        <span class="path1"></span>
+                                        <span class="path2"></span>
+                                    </i>
+                                    <input type="text" data-kt-event-categories-table-filter="search" name="user_search"
+                                        class="form-control form-control-solid w-250px ps-13" id="search_box"
+                                        placeholder="Search user" />
+                                </div>
+                            </div>
+                            <div class="card-toolbar">
+                                <div class="d-flex justify-content-end gap-5" data-kt-event-categories-table-toolbar="base">
+                                    <div class="m-0">
+                                        <a href="{{ route('users.add_user') }}"
+                                            class="btn btn-sm btn-flex btn-primary fw-bold align-items-center"
+                                            data-kt-menu-trigger="click" data-kt-menu-static="true" data-kt-menu-placement="bottom-end">
+                                            <i class="ki-duotone ki-plus lh-0 fs-4 me-1">
+                                                <span class="path1"></span>
+                                                <span class="path2"></span>
+                                            </i>Add user
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="card-body table-responsive">
                         <table id="usersTable" class="table table-row-dashed table-hover">
                             <thead>

@@ -224,6 +224,7 @@
             place.html(dynamicAlert);
         }
     </script>
+    
     @yield('js')
 </body>
 

@@ -12,7 +12,7 @@
 <div class="app-container container-xxl d-flex align-items-stretch justify-content-between" id="kt_app_header_container">
     <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0 me-lg-15">
 
-        <a href="">
+        <a href="{{ route('users.add_user') }}">
             <img alt="Logo" src="{{ asset('assets/media/logos/logo.png') }}"
                 class="h-40px h-lg-45px app-sidebar-logo-default theme-light-show" />
             <img alt="Logo" src="{{ asset('assets/media/logos/logo-dark.png') }}"
